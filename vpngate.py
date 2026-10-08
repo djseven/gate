@@ -297,7 +297,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cf.877774.xyz:443,www.shopify.com:443,openai.com:443,linear.app:443,spring.io:443,www.bilibili.com:443,cdn.ctn32.us.kg:443,cf.nyanya.moe:443",
+        "speed.cloudflare.com:443,www.cloudflare.com:443,cloudflare.net:443,radar.cloudflare.com:443,api.cloudflare.com:443,dash.cloudflare.com:443,blog.cloudflare.com:443,support.cloudflare.com:443,community.cloudflare.com:443,saas.sin.fan:443,cf.877774.xyz:443,cf.nyanya.moe:443,cf.090227.xyz:443",
     ).split(",")
     if h.strip()
 ]
